@@ -1,0 +1,38 @@
+{
+	"fields": [
+		{
+			"name": "PeriodFrom",
+			"title": "Period From",
+			"constraints": {
+				"required": true,
+				"type": "http://www.w3.org/2001/XMLSchema#date",
+                                "datePattern": "%Y-%m"
+			}
+		},
+		{
+			"name": "PeriodTo",
+			"title": "Period To",
+			"constraints": {
+				"required": true,
+				"type": "http://www.w3.org/2001/XMLSchema#date",
+                                "datePattern": "%Y-%m"
+			}
+		},
+		{
+			"name": "NumberOfCertificatesIssued",
+			"title": "The number of certificates of competence issued",
+			"constraints": {
+				"required": true,
+				"type": "http://www.w3.org/2001/XMLSchema#int"
+			}
+		},
+		{
+			"name": "NumberOfTemporaryCertificatesIssued",
+			"title": "The number of temporary certificates of competence issued",
+			"constraints": {
+				"required": true,
+				"type": "http://www.w3.org/2001/XMLSchema#int"
+			}
+		}
+	]
+}
